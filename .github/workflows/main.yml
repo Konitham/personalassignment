@@ -1,0 +1,10 @@
+name: payment-widget-ui-dev
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "hurrah"   
